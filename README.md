@@ -17,7 +17,7 @@
 ### 5- Commodity Channel Index (CCI):
 É um indicador de momentum que mede a relação entre o preço atual e a média móvel dos preços. É usado para identificar mudanças na tendência e condições de sobrecompra ou sobrevenda. Período escolhido de 14 dias.
 
-### 6- Moving Average Convergence Divergence (MACD)
+### 6- Moving Average Convergence Divergence (MACD):
 É um indicador que usa a diferença entre duas médias móveis exponenciais para identificar mudanças na tendência. Periódo curto foi de 12 dias e o periódo longo foi de 26 dias.
 
 ### 7- 9-period EMA do MACD:
@@ -35,7 +35,7 @@
 ### 11- Slow Stochastic %K:
 É um indicador que compara o preço atual com o intervalo entre o preço mais alto e mais baixo ao longo de um período de tempo. Periódo de 14 dias.
 
-### 12- Slow Stochastic %D
+### 12- Slow Stochastic %D:
 É a média móvel do Slow Stochastic %K. Periódo de 14 dias.
 
 ### 13 - Fast Stochastic %K:
@@ -76,4 +76,4 @@ Mede a proporção da variância nos dados que é explicada pelo modelo. É uma 
 ### 5- R2 (R-squared): 
 É uma medida de quão bem o modelo se ajusta aos dados. É uma métrica entre 0 e 1, onde 1 indica um ajuste perfeito do modelo aos dados.
 
-# Referências
+# Referência
