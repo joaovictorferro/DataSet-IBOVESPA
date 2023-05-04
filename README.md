@@ -41,7 +41,7 @@
 ### 13 - Fast Stochastic %K:
 É semelhante ao Slow Stochastic %K, mas usa um período mais curto. Periódo de 9 dias.
 
-###14 - Fast Stochastic %D:
+### 14 - Fast Stochastic %D:
 É a média móvel do Fast Stochastic %K. Periódo de 9 dias.
 
 ### 15 - Chaikin A/D Oscillator:
@@ -56,7 +56,7 @@ São três bandas que envolvem a média móvel de um ativo. A banda superior e a
 ### 18- Lowest Low:
 É o preço mais baixo observado durante um determinado período. Periódo de 14 dias.
 
-### William's %R: 
+### 19- William's %R: 
 É um indicador de momentum que compara o preço atual com o intervalo entre o preço mais alto e mais baixo ao longo de um período de tempo, expresso em uma escala de 0 a - 100. Periódo de 14 dias.
 
 ## Métricas de Avaliação
