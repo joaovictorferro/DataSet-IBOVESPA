@@ -24,7 +24,7 @@ import time
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("https://raw.githubusercontent.com/joaovictorferro/DataSet-IBOVESPA/main/DataSet_IBOVESPA_Norma.csv")
+df = pd.read_csv("XXXX")
 
 """# Division Train and Test"""
 
