@@ -1,4 +1,4 @@
-# DataSet-IBOVESPA
+# IBOVESPA
 
 ## Indicadores Técnicos
 
