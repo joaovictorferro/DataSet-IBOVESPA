@@ -1,79 +1,77 @@
 # IBOVESPA
 
-## Indicadores Técnicos
+## Technical Indicators
 
 ### 1- Simple Moving Average (SMA):
-É a média aritmética dos preços de fechamento dos últimos n períodos. Neste caso, os valores mais recentes têm o mesmo peso que os mais antigos. Esta dividido em (5,10,15,20) dias.
+It is the arithmetic average of the closing prices over the last n periods. In this case, the most recent values have the same weight as the older ones. It is divided into (5, 10, 15, 20) days.
 
 ### 2- Exponential Moving Average (EMA):
-É semelhante ao SMA, mas os preços mais recentes têm um peso maior. É mais sensível a mudanças recentes nos preços do que o SMA.Esta dividido em (5,10,15,20) dias.
+It is similar to SMA, but the most recent prices have a higher weight. It is more sensitive to recent price changes than SMA. It is divided into (5, 10, 15, 20) days.
 
-### 3- Relative Strength Index (RSI): 
-É um indicador de momentum que compara a magnitude dos ganhos recentes com as perdas recentes para determinar se um ativo está sobrecomprado ou sobrevendido. Período escolhido de 14 dias.
+### 3- Relative Strength Index (RSI):
+It is a momentum indicator that compares the magnitude of recent gains with recent losses to determine if an asset is overbought or oversold. Chosen period of 14 days.
 
-### 4- Chande Momentum Oscillator (CMO): 
-É um indicador de momentum que mede a taxa de mudança dos preços em relação à média móvel.Período escolhido de 14 dias.
+### 4- Chande Momentum Oscillator (CMO):
+It is a momentum indicator that measures the rate of change of prices relative to the moving average. Chosen period of 14 days.
 
 ### 5- Commodity Channel Index (CCI):
-É um indicador de momentum que mede a relação entre o preço atual e a média móvel dos preços. É usado para identificar mudanças na tendência e condições de sobrecompra ou sobrevenda. Período escolhido de 14 dias.
+It is a momentum indicator that measures the relationship between the current price and the moving average of prices. It is used to identify trend changes and overbought or oversold conditions. Chosen period of 14 days.
 
 ### 6- Moving Average Convergence Divergence (MACD):
-É um indicador que usa a diferença entre duas médias móveis exponenciais para identificar mudanças na tendência. Periódo curto foi de 12 dias e o periódo longo foi de 26 dias.
+It is an indicator that uses the difference between two exponential moving averages to identify trend changes. Short period is 12 days and long period is 26 days.
 
-### 7- 9-period EMA do MACD:
-É frequentemente usado como um sinal de compra ou venda. Periódo de 9 dias.
+### 7- 9-period EMA of MACD:
+It is often used as a buy or sell signal. 9-day period.
 
 ### 8- Rate of Change (ROC):
-É um indicador que mede a mudança percentual no preço ao longo do tempo. Periódo 14 dias.
+It is an indicator that measures the percentage change in price over time. 14-day period.
 
-### 9- Percentage Price Oscillator (PPO): 
-É semelhante ao MACD, mas usa a diferença percentual entre duas médias móveis exponenciais. Periódo curto foi de 12 dias e o periódo longo foi de 26 dias.
+### 9- Percentage Price Oscillator (PPO):
+It is similar to MACD but uses the percentage difference between two exponential moving averages. Short period is 12 days and long period is 26 days.
 
-### 10- Triangular Moving Average (TMA): 
-É uma média móvel que dá mais peso aos preços mais recentes, usando uma função triangular. Periódo de 20 dias.
+### 10- Triangular Moving Average (TMA):
+It is a moving average that gives more weight to recent prices using a triangular function. 20-day period.
 
 ### 11- Slow Stochastic %K:
-É um indicador que compara o preço atual com o intervalo entre o preço mais alto e mais baixo ao longo de um período de tempo. Periódo de 14 dias.
+It is an indicator that compares the current price with the range between the highest and lowest price over a period of time. 14-day period.
 
 ### 12- Slow Stochastic %D:
-É a média móvel do Slow Stochastic %K. Periódo de 14 dias.
+It is the moving average of Slow Stochastic %K. 14-day period.
 
 ### 13 - Fast Stochastic %K:
-É semelhante ao Slow Stochastic %K, mas usa um período mais curto. Periódo de 9 dias.
+It is similar to Slow Stochastic %K but uses a shorter period. 9-day period.
 
 ### 14 - Fast Stochastic %D:
-É a média móvel do Fast Stochastic %K. Periódo de 9 dias.
+It is the moving average of Fast Stochastic %K. 9-day period.
 
 ### 15 - Chaikin A/D Oscillator:
-É um indicador que mede o fluxo de dinheiro em um ativo, com base na diferença entre o preço de fechamento e a faixa de negociação. Fast definido de 3 dias e o slow de 10 dias.
+It is an indicator that measures the money flow into an asset based on the difference between the closing price and the trading range. Fast set to 3 days and slow set to 10 days.
 
 ### 16- Bollinger Bands:
-São três bandas que envolvem a média móvel de um ativo. A banda superior e a banda inferior são dois desvios padrão da média móvel. A banda do meio é a média móvel.
+They are three bands that surround the moving average of an asset. The upper band and lower band are two standard deviations from the moving average. The middle band is the moving average.
 
 ### 17- Highest High:
-É o preço mais alto observado durante um determinado período. Periódo de 14 dias.
+It is the highest price observed during a certain period. 14-day period.
 
 ### 18- Lowest Low:
-É o preço mais baixo observado durante um determinado período. Periódo de 14 dias.
+It is the lowest price observed during a certain period. 14-day period.
 
-### 19- William's %R: 
-É um indicador de momentum que compara o preço atual com o intervalo entre o preço mais alto e mais baixo ao longo de um período de tempo, expresso em uma escala de 0 a - 100. Periódo de 14 dias.
+### 19- William's %R:
+It is a momentum indicator that compares the current price with the range between the highest and lowest price over a period of time, expressed on a scale from 0 to -100. 14-day period.
 
-## Métricas de Avaliação
+## Evaluation Metrics
 
 ### 1- MSE (Mean Squared Error):
-É a média do quadrado da diferença entre os valores preditos e os valores reais. É amplamente utilizado porque penaliza grandes erros mais do que pequenos erros.
+It is the average of the squared difference between the predicted values and the actual values. It is widely used because it penalizes large errors more than small errors.
 
 ### 2- EVS (Explained Variance Score):
-Mede a proporção da variância nos dados que é explicada pelo modelo. É uma métrica entre 0 e 1, onde 1 indica que o modelo explica toda a variância nos dados.
+It measures the proportion of variance in the data that is explained by the model. It is a metric between 0 and 1, where 1 indicates that the model explains all the variance in the data.
 
 ### 3- MAE (Mean Absolute Error):
-É a média da diferença absoluta entre os valores preditos e os valores reais. É menos sensível a outliers do que o MSE.
+It is the average of the absolute difference between the predicted values and the actual values. It is less sensitive to outliers than MSE.
 
-### 4- MSLE (Mean Squared Logarithmic Error): 
-É a média do quadrado do logaritmo da diferença entre os valores preditos e os valores reais. É usado quando a variação dos dados é muito grande.
+### 4- MSLE (Mean Squared Logarithmic Error):
+It is the average of the squared logarithmic difference between the predicted values and the actual values. It is used when the data variation is large.
 
-### 5- R2 (R-squared): 
-É uma medida de quão bem o modelo se ajusta aos dados. É uma métrica entre 0 e 1, onde 1 indica um ajuste perfeito do modelo aos dados.
-
-# Referência
+### 5- R2 (R-squared):
+It is a measure of how well the model fits the data. It is a metric between 0 and 1, where 1 indicates a perfect fit of the model to the data.
