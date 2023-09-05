@@ -24,7 +24,7 @@ It is an indicator that uses the difference between two exponential moving avera
 It is often used as a buy or sell signal. 9-day period.
 
 ### 8- Rate of Change (ROC):
-It is an indicator that measures the percentage change in price over time. 14-day period.
+It is an indicator that measures the percentage change in price over time. 5-day period.
 
 ### 9- Percentage Price Oscillator (PPO):
 It is similar to MACD but uses the percentage difference between two exponential moving averages. Short period is 12 days and long period is 26 days.
