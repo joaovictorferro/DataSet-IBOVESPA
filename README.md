@@ -36,13 +36,13 @@ It is a moving average that gives more weight to recent prices using a triangula
 It is an indicator that compares the current price with the range between the highest and lowest price over a period of time. 14-day period.
 
 ### 12- Slow Stochastic %D:
-It is the moving average of Slow Stochastic %K. 14-day period.
+It is the moving average of Slow Stochastic %K. 3-day period.
 
 ### 13 - Fast Stochastic %K:
-It is similar to Slow Stochastic %K but uses a shorter period. 9-day period.
+It is similar to Slow Stochastic %K but uses a shorter period. 14-day period.
 
 ### 14 - Fast Stochastic %D:
-It is the moving average of Fast Stochastic %K. 9-day period.
+It is the moving average of Fast Stochastic %K. 3-day period.
 
 ### 15 - Chaikin A/D Oscillator:
 It is an indicator that measures the money flow into an asset based on the difference between the closing price and the trading range. Fast set to 3 days and slow set to 10 days.
